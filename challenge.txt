@@ -1,0 +1,25 @@
+https://github.com/javi10823/challenge-cripto-react-native
+
+✨ Challenge ✨
+
+El challenge y su documentación se encuentran en GitHub (https://github.com/javi10823/challenge-cripto-react-native). Para la realización del mismo, deberán crear un repositorio desde cero e ir completando las features en el siguiente orden específico:
+
+1) List of Cryptocurrencies: This screen should have the list of cryptocurrencies that the user has added to their dashboard. Each crypto should have it's value and a metric showing the percentage change. Also, remember to add a scrollview and an empty component. This list should remain even if the user exits the app.
+2) Connect Data with API: The goal of this is to connect the app's data with the API.
+3) Add new Cryptocurrency: In this screen, the user can add a new cryptocurrency from a list of all available cryptos. Remember to filter those that are already added.
+4) Update Cryptocurrency Data: The goal is to create an updating cycle so the value of user's cryptos are always updated.
+Cada uno de estos puntos deberá ser entregado individualmente con la modalidad Pull Requests explicada a continuación.
+
+✨ Entrega de Features ✨
+
+Una vez completada una feature de la lista anterior, y la misma esté lista para ser revisada, se deberá abrir un
+Pull Request apuntado a master con evidencia de lo trabajado. La evidencia deberá ser de capturas del simulador, o dependiendo de la feature puede que se necesite una grabación para corroborar el entregable. Lo mismo dependiendo de la feature se pueden necesitar evidencia de ambos dispositivos, iOS y Android (si no dispones de sistema iOS para testear, no pasa nada). En cuanto al sistema de branching, el mismo generalmente depende mucho de la preferencia del cliente, pero nuestro sistema propio radica en la siguiente estructura: iniciales-descripcion_corta. En nuestro caso del challenge, un ejemplo sería AVS-crypto-list.
+Una vez creado este Pull Request en GitHub, se deberá crear un thread privado en el canal pull-requests, de la siguiente manera:
+
+1) En el textbox del canal, apretar en el icono de +.
+2) Elegir "Crear hilo"
+3) Se abrirá un side content con el hilo a crear. En esta instancia, deben marcar la opción de "Hilo privado", poner en el nombre del hilo el nombre de la feature realizada, y dejar un mensaje dentro del hilo con el link del Pull Request y taggeando a @Revisores. El revisor, dentro de 48hs hábiles, revisará tu Pull Request y dejará comentarios en caso de ser necesario. Caso contrario, te aprobará el PR y podrás mergearlo a master. Si estás acostumbrado a trabajar con el sistema de branching, no es necesario que esperes a que el PR sea corregido y aprobado para avanzar con la siguiente tarea.
+
+✨ Aspectos Generales ✨
+
+RN permite comenzar un nuevo proyecto con TS ya integrado utilizando el comando npx react-native init AwesomeTSProject --template react-native-template-typescript (aparece en la guía de inicio en https://reactnative.dev/docs/environment-setup), por lo que el setup que deberían hacer sería mínimo para ya empezar a implementarlo en la app. No está de más aclarar que desde esta instancia en adelante se manejará en gran medida el inglés, tanto para las cards como para los proyectos. Es sumamente importante acostumbrarse a programar en inglés.
